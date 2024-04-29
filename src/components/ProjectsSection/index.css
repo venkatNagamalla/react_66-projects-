@@ -1,0 +1,65 @@
+select {
+  width: 200px;
+  height: 35px;
+  outline: none;
+  margin-left: 10px;
+}
+
+.home-container {
+  padding: 20px 40px 20px 40px;
+}
+
+.container {
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.failure-img {
+  width: 60%;
+  margin-bottom: 10px;
+}
+
+.failure-heading {
+  color: #475569;
+  font-size: 27px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  font-weight: 450;
+}
+
+.failure-text {
+  color: #475569;
+  font-size: 13px;
+  margin-bottom: 8px;
+}
+
+.btn {
+  background-color: #328af2;
+  color: #ffffff;
+  height: 30px;
+  width: 60px;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .failure-img {
+    width: 30%;
+    margin-bottom: 10px;
+  }
+  select {
+    width: 350px;
+  }
+}
